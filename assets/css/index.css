@@ -13,7 +13,12 @@
 #Navbar {
   display: flex;
   align-items: center; /* Alinea verticalmente */
-  background-color: #f8f9fa; /* Gris, ajusta según tu color */
-  height: 60px; /* Ajusta la altura según tu diseño */
+  background-color: #399c00; /* Gris, ajusta según tu color */
+  height: 130px; /* Ajusta la altura según tu diseño */
   padding: 0 20px; /* Opcional: espacio a los lados */
+}
+
+/* Quita el fondo de los navbars internos si lo tienen */
+.navbar, .navbar.bg-body-tertiary, .navbar-expand-lg {
+  background-color: transparent !important;
 }
